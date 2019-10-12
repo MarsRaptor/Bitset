@@ -1,0 +1,26 @@
+{
+  "name": "@marsraptor/bitset",
+  "version": "1.0.0",
+  "description": " Typescript version of infusion's BitSet.js [https://github.com/infusion/BitSet.js] Typings seem bugged for official",
+  "main": ".dist/index.js",
+  "types": ".dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarsRaptor/BitSet.git"
+  },
+  "author": "MarsRaptor <waltongregory.hobby@gmail.com> (https://twitter.com/MarsRaptor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarsRaptor/bitset/issues"
+  },
+  "homepage": "https://github.com/MarsRaptor/bitset#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.3.3"
+  }
+}
